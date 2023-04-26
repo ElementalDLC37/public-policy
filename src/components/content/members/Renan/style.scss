@@ -1,0 +1,108 @@
+.renan-content-box {
+    width: 100%;
+    height: min-content;
+    display: flex;
+    margin-bottom: 2rem;
+}
+
+.renan-image-content {
+    border-radius: 13px;
+}
+
+.renan-content-box-1 {
+    margin-top: 3%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .renan-image-content-1 {
+        width: 233px; 
+        height: 144px;
+        object-fit: cover;
+        margin-left: 1rem;
+    }
+
+    p {
+        margin: 0 1rem;
+        margin-top: 1rem;
+        text-align: center;
+        max-width: 626px;
+    }
+}
+
+.renan-content-box-2 {
+    justify-content: center;
+
+    p {
+        max-width: 610px;
+        text-align: center;
+    }
+}
+
+.renan-content-box-3 {
+    display: flex;
+    align-items: center;
+    width: max-content;
+    margin: 0 auto;
+
+    p {
+        margin: 0;
+        text-align: justify;
+        margin-right: 1rem;
+        max-width: 377px;
+        margin-left: 1rem;
+    }
+
+    .renan-image-content-2 {
+        width: 233px; 
+        height: 233px;
+        object-fit: cover;
+        margin-right: 1rem;
+    }
+}
+
+.renan-content-box-4 {
+    width: max-content;
+    margin: 0 auto;
+
+    p {
+        margin: 0;
+        text-align: justify;
+        max-width: 377px;
+        margin-left: 1rem;
+        margin-top: 1rem;
+        margin-right: 1rem;
+    }
+
+    .renan-image-content-3 {
+        width: 233px; 
+        height: 233px;
+        object-fit: cover;
+        margin-left: 1rem;
+    }
+}
+
+.renan-content-box-5 {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    p {
+        margin: 0 3rem;
+        max-width: 626px;
+        text-align: center;
+        margin-top: 1rem;
+    }
+
+    .renan-image-content-4 {
+        width: 233px; 
+        height: 144px;
+        object-fit: cover;
+    }
+}
+
+.renan-content-span-1, .renan-content-span-2, .renan-content-span-3, .renan-content-span-4 {
+    width: 100%;
+    text-align: center;
+    margin: 1rem 0;
+}
